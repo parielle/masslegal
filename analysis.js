@@ -66,6 +66,7 @@ function findingDiv(user_findings, i) {
 var deposit_status = $('#security-deposit input:checkbox[name=deposit-status]');
 var deposit_days = $('#security-deposit input:checkbox[name=deposit-days]');
 var tenancy_ended_30 = $('#security-deposit input:checkbox[name=tenancy-ended]');
+var deposit_interest = $('#security-deposit input:checkbox[name=deposit-interest]');
 
 var deposit_receipt = $('#deposit-receipt');
 var receipt_status = $('#deposit-receipt input:checkbox[name=receipt-status]');
@@ -86,6 +87,7 @@ function security_deposit_analysis() {
 		if (deposit_days[0].checked) {
 			if (receipt_late.checked || !receipt_status.checked) {
 				user_findings.push(findings.receipt_late_result);
+				user_findings.push(findings.clause_7);
 			}
 		} 
 		if (!deposit_days[0].checked && !tenancy_ended_30[0].checked) {
@@ -99,6 +101,10 @@ function security_deposit_analysis() {
 				user_findings.push(findings.withheld_other_result);
 			}
 		}
+		if (tenancy_ended_30[0].checked && !deposit_interest[0].checked) {
+			user_findings.push(findings.deposit_interest_owed);
+			user_findings.push(findings.clause_7);
+		 }
 	} else {
 		user_findings.push(findings.no_deposit);
 	}
