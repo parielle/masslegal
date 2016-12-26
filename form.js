@@ -238,6 +238,7 @@ tenancy_ended_30.change(function(){
 	"use strict";
 	toggle_pure(tenancy_ended_30[0].checked, deposit_withheld);
 	toggle(tenancy_ended_30[0].checked, deposit_returned);
+	toggle(tenancy_ended_30[0].checked, deposit_interest);
 	
 });
 deposit_returned.change(function(){
