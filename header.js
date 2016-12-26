@@ -5,6 +5,7 @@ $("document").ready(function() {
 $('#header').html(
 	'<ul><li><a href="index.html">Home</a></li><li><a href="resources.html">Resources</a></li><li>Contact Us</li></ul>');
 });
+// &copy;
 $('#footer').html(
 	'Massachusetts Legal ©');
 });
