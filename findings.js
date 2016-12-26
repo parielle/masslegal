@@ -1,5 +1,8 @@
 // JavaScript Document
 
+var resource_page_url = '<a href="resources.html" name="Resources">resources</a>';
+var check_resources = "The laws we match situations against do not apply for your case. However, that doesn't mean that you don't have a case! Check out the our " + resource_page_url + " page to do research on your own or find a lawyer.";
+
 var deposit_submitted_recently = {
 	finding: "Inconclusive - Recent Security Deposit",
 	explanation: "You indicated that you submitted your deposit less than 30 days ago. Most laws relating to deposits take effect 30 days after your deposit has been received by your landlord. Take the quiz again once 30 days have passed since you submitted your deposit.",
@@ -54,7 +57,7 @@ var late_fee_less_30 = {
 
 var late_fee_inconclusive = {
 	finding: "Inconclusive - Late Fee",
-	explanation: "The laws we match situations against do not apply for your case. However, that doesn't mean that you don't have a case! Check out the our resources page to do research on your own or find a lawyer.",
+	explanation: check_resources,
 };
 
 var rent_interest_owed = {
@@ -66,7 +69,7 @@ var rent_interest_owed = {
 
 var rent_inconclusive = {
 	finding: "Inconclusive - Last Month's Rent",
-	explanation: "The laws we match situations against do not apply for your case. However, that doesn't mean that you don't have a case! Check out the our resources page to do research on your own or find a lawyer.",
+	explanation: check_resources,
 };
 
 var findings = {
