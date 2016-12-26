@@ -14,12 +14,11 @@ var withheld_other_result = {
 
 var receipt_late_result = {
 	finding: "Tenant Owed Full Deposit",
-	justification: "GL Part II Title I Chapter 186 Section 15B(3)(a) + (7)",
+	justification: "GL Part II Title I Chapter 186 Section 15B(3)(a)",
 	justification_text: "A receipt shall be given to the tenant within thirty days after such deposit is received by the lessor which receipt shall indicate the name and location of the bank in which the security deposit has been deposited and the amount and account number of said deposit. Failure to comply with this paragraph shall entitle the tenant to immediate return of the security deposit.",
 	url: "https://malegislature.gov/laws/generallaws/partii/titlei/chapter186/section15b",
 };
 
-// TODO
 var clause_7 = {
 	finding: "Tenant Owed Full Deposit + Damages",
 	justification: "GL Part II Title I Chapter 186 Section 15B(7)",
@@ -34,7 +33,6 @@ finding: "Tenant Owed Full Deposit",
 	url: "https://malegislature.gov/laws/generallaws/partii/titlei/chapter186/section15b",
 };
 
-// TODO
 var deposit_interest_owed = {
 finding: "Tenant Owed Interest on Security Deposit",
 	justification: "GL Part II Title I Chapter 186 Section 15B(3)(b)",
