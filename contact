@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<link rel="icon" href="ic_launcher.png">
+<link rel="stylesheet" href="stylesheet.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script src="header.js"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="main">
+  <div class="padding">
+    <div id="banner"> <img id="gavel" alt="BlocHaus" src="BlocHaus_med.png" width="250" height="250"> </div>
+    <p class="line-break"> _______ </p>
+    <h1> Contact Us </h1>
+    <p class="line-break"> _______ </p>
+     <p> Have questions that our website didn't cover? Contact us via email at inquiries@massrenterrights.org! </p>
+  </div>
+</div>
+  <div id="footer"></div>
+</body>
+</html>
