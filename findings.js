@@ -96,12 +96,16 @@ var findings = {
 
 function determine_value_deposit(finding) {
 	switch(finding) {
+		case clause_7:
+			return 0;
 		case receipt_late_result:
 			return 1;
 		case no_damage_list:
 			return 2;
 		case withheld_other_result:
 			return 7;
+		case deposit_interest_owed:
+			return 8;
 		case deposit_submitted_recently:
 			return 9;
 		case no_deposit:
