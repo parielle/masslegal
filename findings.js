@@ -14,8 +14,16 @@ var withheld_other_result = {
 
 var receipt_late_result = {
 	finding: "Tenant Owed Full Deposit",
-	justification: "GL Part II Title I Chapter 186 Section 15B(3)(a)",
+	justification: "GL Part II Title I Chapter 186 Section 15B(3)(a) + (7)",
 	justification_text: "A receipt shall be given to the tenant within thirty days after such deposit is received by the lessor which receipt shall indicate the name and location of the bank in which the security deposit has been deposited and the amount and account number of said deposit. Failure to comply with this paragraph shall entitle the tenant to immediate return of the security deposit.",
+	url: "https://malegislature.gov/laws/generallaws/partii/titlei/chapter186/section15b",
+};
+
+// TODO
+var clause_7 = {
+	finding: "Tenant Owed Full Deposit + Damages",
+	justification: "GL Part II Title I Chapter 186 Section 15B(7)",
+	justification_text: "If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees.",
 	url: "https://malegislature.gov/laws/generallaws/partii/titlei/chapter186/section15b",
 };
 
@@ -23,6 +31,14 @@ var no_damage_list = {
 finding: "Tenant Owed Full Deposit",
 	justification: "GL Part II Title I Chapter 186 Section 15B(6)(b)",
 	justification_text: "The lessor shall forfeit his right to retain any portion of the security deposit for any reason, or, in any action by a tenant to recover a security deposit, to counterclaim for any damage to the premises if he: [...] fails to furnish to the tenant within thirty days after the termination of the occupancy the itemized list of damages, if any, in compliance with the provisions of this section;",
+	url: "https://malegislature.gov/laws/generallaws/partii/titlei/chapter186/section15b",
+};
+
+// TODO
+var deposit_interest_owed = {
+finding: "Tenant Owed Interest on Security Deposit",
+	justification: "GL Part II Title I Chapter 186 Section 15B(3)(b)",
+	justification_text: "A lessor of residential real property who holds a security deposit pursuant to this section for a period of one year or longer from the commencement of the term of the tenancy shall, beginning with the first day of the tenancy, pay interest at the rate of five per cent per year, or other such lesser amount of interest as has been received from the bank where the deposit has been held payable to the tenant at the end of each year of the tenancy.",
 	url: "https://malegislature.gov/laws/generallaws/partii/titlei/chapter186/section15b",
 };
 
