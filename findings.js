@@ -79,6 +79,8 @@ var findings = {
 	receipt_late_result: receipt_late_result,
 	no_deposit: no_deposit,
 	withheld_other_result: withheld_other_result,
+	clause_7: clause_7,
+	deposit_interest_owed: deposit_interest_owed,
 	
 	/* Late fee findings */
 	late_fee_less_30: late_fee_less_30,
