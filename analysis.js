@@ -8,7 +8,6 @@ function analysis() {
 		var finding_list = $('#result-deposit .finding-list')[0];
 		var h4 = $('#result-deposit h4');
 		var controlling = user_findings[0];
-		console.log(user_findings);
 		for (var i = 0; i < user_findings.length; i++) {
 			finding_list.append(findingDiv(user_findings, i));		
 			if (determine_value_deposit(user_findings[i]) < determine_value_deposit(controlling)) {
@@ -53,7 +52,6 @@ function findingDiv(user_findings, i) {
 	if ( user_findings[i].explanation != null) {
 		return createExplanation(user_findings[i]);
 	} else {
-		console.log(user_findings.length);
 		if (user_findings.length < 1) {
 			return createJustification(user_findings[i], '');
 		} else {
