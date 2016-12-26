@@ -19,6 +19,7 @@ body {
 	min-height: 700px;
 	background-color: white;
 	padding-top: 25px;
+	display: inline-block;
 }
 
 .padding {
@@ -33,6 +34,7 @@ body {
 	background-color: #A7CCC2;
 	width: 100%;
 	margin-top: -1px;
+	display: inline-block;
 }
 
 #header ul {
@@ -151,6 +153,7 @@ p, ul, li {
 	color: white;
 	padding-top: 8px;
 	font-weight: bold;
+	display: inline-block;
 }
 
 .landlord {
