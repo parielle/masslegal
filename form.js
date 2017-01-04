@@ -48,10 +48,10 @@ $('.start-over').click(function () {
 	return false;
 });
 
-$('.submit').click(function () {
-	"use strict";
-	return false;
-});
+//$('.submit').click(function () {
+//	"use strict";
+//	return false;
+//});
 
 $('.request-information').click(function () {
 	"use strict";
