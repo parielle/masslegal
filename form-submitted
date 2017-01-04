@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="stylesheet2.css">
+<title>Request Submitted!</title>
+<meta name="description=" content="Did your Massachusetts landlord break landlord-tenant laws? 
+      Does your Massachusetts landlord owe you money? Can you sue them in Massachusetts small 
+      claims court for damages and inconvenience?">
+<link rel="icon" href="ic_launcher.png">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89445674-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+<!-- multistep form -->
+<form id="msform">
+  <!-- progressbar -->
+  <ul id="progressbar">
+    <li class="active">Residency</li>
+    <li class="active">Concerns</li>
+    <li class="active">Deposits</li>
+    <li class="active">Rent</li>
+    <li class="active">Fees</li>
+    <li class="active">Confirmation</li>
+    <li class="active">Results</li>
+  </ul>
+  <!-- fieldsets -->
+  <fieldset id="error">
+    <h2 class="fs-title">Request Submitted!</h2>
+    <h3 class="fs-subtitle">We will contact you as soon as possible!</h3>
+    <a href="index.html"><input type="button" name="return" class="action-button" value="Return to Homepage" /></a>
+  </fieldset>
+</form>
+</body>
+</html>
